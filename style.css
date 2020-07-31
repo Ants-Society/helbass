@@ -452,3 +452,18 @@ footer {
     text-align: center;
   }
 }
+
+.contact {
+  padding-top: 3em;
+}
+
+.contact ul li,
+.contact ul a {
+  line-height: 2;
+  color: #1D1F55;
+}
+
+.contact ul a {
+  font-weight: bold;
+  font-size: 1em;
+}

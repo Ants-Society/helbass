@@ -25,17 +25,19 @@
     <section class="contact">
       <ul>
         <li>
-          <img class="icon" src="img/icon.svg" alt="icon">
+          <h3><b>Fale conosco</b></h3>
+        </li>
+        <li>
           <a href="https://api.whatsapp.com/send?phone=5519981032282" target="_blank">19 98103 2282</a>
         </li>
         <li>
-          <a href="mailto:atendimento@helbass.com.br">atendimento@helbass.com.br</a>
+          <a href="mailto:atendimento@helbass.com.br">atendimento@helbass.com.br</a><br><br>
         </li>
         <li>
-          Sumaré/SP
-          <br>
+          <h3><b>Onde estamos</b></h3>
           Rua Luiz Vaz de camões<br>
           Nº1088 Jardim Primavera<br>
+          Sumaré/SP<br>
           Cep: 13173-030
         </li>
       </ul>
@@ -118,6 +120,7 @@
     <div class="footer__box">
       <img src="img/logo.svg" alt="logo">
       <div class="footer__info">
+        <h3><b>Onde estamos</b></h3><br>
         Sumaré/SP
         <br><br>
         Rua Luiz Vaz de camões<br>
@@ -125,8 +128,14 @@
         Cep: 13173-030
       </div>
       <div class="footer__info">
+        <h3><b>Fale conosco</b></h3><br>
         <a href="mailto:atendimento@helbass.com.br">atendimento@helbass.com.br</a>
         <br><br>
+        <div>
+          whatsapp:
+          <a href="https://api.whatsapp.com/send?phone=5519981032282" target="_blank">19 98103 2282</a>
+        </div>
+        <br>
         19 3828 7811<br>
         19 3903 3245<br>
       </div>
@@ -138,6 +147,11 @@
     VanillaTilt.init(document.querySelectorAll(".card-box"), {
       max: 10,
       speed: 400
+    });
+
+    VanillaTilt.init(document.querySelector(".statue"), {
+      max: 8,
+      speed: 500
     });
   </script>
   <script src="app.js"></script>

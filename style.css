@@ -220,7 +220,7 @@ header {
     left: 0;
     height: 100vh;
     background-color: white;
-    z-index: 10;
+    z-index: 9;
     transform: translateX(-100%);
     padding: 1em;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
@@ -236,3 +236,102 @@ header {
   }
 }
 
+.area {
+  margin-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 40px;
+  position: sticky;
+  background: linear-gradient(-90deg, #1D1F55 50%, rgba(0, 0, 0, 0) 0%);
+}
+
+.area__title {
+  font-family: 'Merriweather', serif;
+  color: #1D1F55;
+  padding: 1em 2em;
+  font-size: 54px;
+}
+
+.area__title:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 80px;
+  height: 60px;
+  background-color: #1D1F55;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+
+.card-box {
+  position: relative;
+}
+
+.card {
+  max-width: 260px;
+  border: solid 1px;
+  text-align: center;
+  padding: 1em;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  justify-content: space-evenly;
+  margin-bottom: 100px;
+  margin: 0 60px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.card-two {
+  position: absolute;
+  background-color: white;
+  top: 10px;
+  left: 10px;
+  margin: 0 60px;
+  width: 260px;
+  height: 300px;
+  border: solid 1px #1D1F55;
+  z-index: -1;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.card-three {
+  position: absolute;
+  background-color: white;
+  top: 20px;
+  left: 20px;
+  margin: 0 60px;
+  width: 260px;
+  height: 300px;
+  border: solid 1px #1D1F55;
+  z-index: -2;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-box:hover .card-three {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+@media (max-width: 1190px) {
+  .area__title {
+    display: none;
+  }
+  .cards {
+    flex-direction: column;
+    margin-top: -150px;
+  }
+  .area {
+    background: none;
+  }
+  .card,
+  .card-two,
+  .card-three {
+    margin: 1em 0 2em;
+  }
+}

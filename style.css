@@ -276,7 +276,7 @@ header {
   padding-bottom: 80px;
   margin-bottom: 40px;
   position: sticky;
-  background: linear-gradient(-90deg,  50%, rgba(0, 0, 0, 0) 0%);
+  background: linear-gradient(-90deg, #1D1F55 50%, rgba(0, 0, 0, 0) 0%);
   animation: appear 1s forwards;
   animation-delay: 1s;
   opacity: 0;

@@ -2,7 +2,9 @@ html {
   box-sizing: border-box;
   font-size: 16px;
   font-family: 'Merriweather', serif;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/light-grey-floral-motif.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 *, *:before, *:after {
@@ -46,6 +48,7 @@ header {
   right: -80px;
   opacity: 0;
   animation: appear 2s forwards;
+  filter:grayscale(100%);
 }
 
 @keyframes appear {
@@ -276,7 +279,7 @@ header {
   padding-bottom: 80px;
   margin-bottom: 40px;
   position: sticky;
-  background: linear-gradient(-90deg, #1D1F55 50%, rgba(0, 0, 0, 0) 0%);
+  background-image: linear-gradient(-90deg, #1D1F55 50%, rgba(0, 0, 0, 0) 0%);
   animation: appear 1s forwards;
   animation-delay: 1s;
   opacity: 0;

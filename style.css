@@ -43,11 +43,10 @@ header {
 
 .statue {
   position: absolute;
-  bottom: 0;
-  right: -80px;
+  bottom: -40px;
+  right: -160px;
   opacity: 0;
   animation: appear 2s forwards;
-  filter:grayscale(100%);
 }
 
 @keyframes appear {

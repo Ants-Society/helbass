@@ -1,4 +1,4 @@
-const staticCacheName = 'site-static-v3';
+const staticCacheName = 'site-static-v6';
 const assets = [
   '/',
   '/index.html',
@@ -6,7 +6,7 @@ const assets = [
   '/style.css',
   '/img/goodbom.png',
   '/img/icon.svg',
-  '/img/law-statue.png',
+  '/img/build.png',
   '/img/logo.svg',
   '/img/menu.svg',
   '/img/mobile-bg.png',

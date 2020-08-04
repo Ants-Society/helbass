@@ -43,8 +43,9 @@ header {
 
 .statue {
   position: absolute;
-  bottom: -40px;
-  right: -160px;
+  bottom: -28px;
+  right: -172px;
+  width: 550px;
   opacity: 0;
   animation: appear 2s forwards;
 }
@@ -173,7 +174,6 @@ header {
 @media (max-width: 1190px) {
   header {
     background-color: #1D1F55;
-    background-image: url(./img/mobile-bg.png);
     background-repeat: no-repeat;
     background-position: 0px bottom;
     height: 100vh;

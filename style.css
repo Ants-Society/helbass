@@ -121,7 +121,7 @@ header {
 .hero__text {
   padding: 1em 0;
   width: 600px;
-  font-size: 1.2em;
+  font-size: 1.6em;
   animation: reveal .6s forwards;
   animation-delay: .2s;
   opacity: 0;
@@ -177,6 +177,7 @@ header {
     background-repeat: no-repeat;
     background-position: 0px bottom;
     height: 100vh;
+    background-image: url(/img/mobile-bg.png);
   }
   .brand__list {
     display: none;
@@ -205,8 +206,10 @@ header {
     margin-left: initial;
   }
   .hero__text {
-    font-size: 1em;
+    font-size: 1.2em;
     width: auto;
+    text-align: right;
+    width: 100%;
     padding-right: 1em;
     padding-left: 2em;
   }
@@ -411,6 +414,7 @@ header {
 @media (max-width: 1190px) {
   .client__title {
     padding-top: 0;
+    font-size: 48px;
   }
   .clients {
     flex-direction: column;
@@ -483,7 +487,7 @@ footer {
     padding-right: 0;
   }
   .footer__info {
-    padding: 1em;
+    padding: 0;
   }
   .ant {
     padding: 1em;

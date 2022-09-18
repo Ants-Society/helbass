@@ -11,13 +11,11 @@ const assets = [
   '/img/menu.svg',
   '/img/mobile-bg.png',
   '/img/money.svg',
-  '/img/paguemenos.png',
   '/img/paper.svg',
   '/img/parana.png',
   '/img/roberto.png',
   '/img/search.svg',
   '/img/terra.png',
-  '/img/vicente.png',
 ];
 // install event
 self.addEventListener('install', evt => {
